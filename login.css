@@ -1,0 +1,122 @@
+@media (max-width: 800px){
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #0000007b;
+    color: #fff;
+} 
+
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #1f222262;
+    color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+}  
+
+.container header {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: yellow;
+} 
+
+.container .form {
+    margin-top: 30px;
+}
+
+.qfs {
+    text-align: center;
+    margin-top: 1rem;
+    opacity: .5;
+    font-size: 13px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #fff;
+    font-size: 12px;
+}
+
+.form :where(.input-box input, .select-box) {
+    height: 40px;
+    position: relative; 
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 0 15px;
+    color: #707070;
+    margin-top: 8px;
+}  
+
+
+.enquiry {
+    margin-top: 1rem;
+    font-size: 13px;
+    display: flex;
+}
+
+.rem p {
+    margin-left: .5rem;
+    margin-top: .2rem;
+}
+
+.form button {
+    height: 55px;
+    width: 100%;
+    background-color: yellow;
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.account p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.account p span a {
+    text-decoration: none;
+    color: yellow;
+}
+
+@keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+     @keyframes animate {
+        to {
+            opacity: 1;
+        }
+    }
+}
